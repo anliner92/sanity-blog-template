@@ -24,6 +24,14 @@ export default {
       to: { type: "author" },
     },
     {
+      name: "excerpt",
+      title: "Excerpt",
+      type: "text",
+      options: {
+        maxLength: 200,
+      },
+    },
+    {
       name: "mainImage",
       title: "Main image",
       type: "image",
@@ -60,7 +68,17 @@ export default {
     {
       name: "body",
       title: "Body",
-      type: "blockContent",
+      type: "markdown",
+    },
+    {
+      name: "metaTitle",
+      title: "Meta Title",
+      type: "string",
+    },
+    {
+      name: "metaDesc",
+      title: "Meta Description",
+      type: "text",
     },
   ],
 
