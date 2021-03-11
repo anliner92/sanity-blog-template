@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Eleazar Junsan <eleazar@webriq.services>",
+  "author": "anliner leona <anlinerleona92@yahoo.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
